@@ -3,3 +3,8 @@
 #have a prefix
 #remove the prefix from the string
 #display the result
+
+#string
+string = "Hello World"
+#prefix
+prefix = "Hello"

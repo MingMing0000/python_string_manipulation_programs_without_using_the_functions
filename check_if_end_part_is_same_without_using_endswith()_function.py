@@ -2,3 +2,9 @@
 #have a string
 #create algorithm to check if the string end part is same
 #print the result
+
+#create a string
+string = "Hello Kitty"
+
+#set the end part to check
+end_part = "ty"

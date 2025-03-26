@@ -9,4 +9,9 @@
 string = "HELLO"
 
 #create list of uppercase characters
-uppercase_letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']  
+uppercase_letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+
+#check if each character are in uppercase
+for char in string:
+    if char in uppercase_letters:
+        uppercase_count += 1

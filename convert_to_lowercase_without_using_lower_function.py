@@ -13,4 +13,10 @@ upper_to_lower = {'A':'a','B':'b','C':'c','D':'d','E':'e','F':'f','G':'g','H':'h
 #change the string to lower case using dictionary
 lower_string = ""
 for char in string:
-    lower_string += upper_to_lower[char]
+    if char not in upper_to_lower:
+        lower_string += char
+    else:
+        lower_string += upper_to_lower[char]
+
+#Print the string
+print(lower_string)

@@ -5,6 +5,14 @@
 
 #create a string
 string = "Hello Kitty"
+print('Word:', string)
 
 #set the end part to check
 end_part = "ty"
+print(f'Does it end with "{end_part}"?')
+
+#check if the string end part is same
+if string[-len(end_part):] == end_part:
+    print(f"Yes, the word {string} ends with {end_part}")
+else:
+    print(f"No, the word {string} does not end with {end_part}")

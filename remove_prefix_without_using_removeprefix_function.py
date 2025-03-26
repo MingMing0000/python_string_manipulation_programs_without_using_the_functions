@@ -4,7 +4,15 @@
 #remove the prefix from the string
 #display the result
 
-#string
-string = "Hello World"
-#prefix
-prefix = "Hello"
+#sample string
+string = "Hello"
+#sample prefix
+prefix = "Hell"
+
+#test if prefix is in the string
+if string[:len(prefix)] == prefix:
+    #remove the prefix then print
+    print(string[len(prefix):]) #output: o
+else:
+    #print the string
+    print(string)

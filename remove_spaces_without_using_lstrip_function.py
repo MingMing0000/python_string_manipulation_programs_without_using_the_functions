@@ -15,3 +15,6 @@ for char in string:
         non_space = True
     if non_space:
         output += char
+
+# display the result
+print(output)

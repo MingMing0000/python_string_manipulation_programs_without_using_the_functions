@@ -7,7 +7,7 @@
 print('Leading space remover')
 
 # create a string
-string = input('Enter a text: ')
+string = input('Enter a text(put some spaces before the first word to see how the program functions): ')
 print("Original text:", string)
 
 # remove the space characters at the beginning of the string
@@ -21,4 +21,4 @@ for char in string:
         output += char
 
 # display the result
-print(f'output: {output}')
+print(f'Text with spaces removed:{output}')

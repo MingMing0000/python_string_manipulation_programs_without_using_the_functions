@@ -23,3 +23,6 @@ space_length = space_length // 2
 
 #add space characters to the beginning and end of the string
 output_string = (' ' * space_length) + input_string + (' ' * space_length)
+
+#display the justified string
+print(f'Centered text: "{output_string}"') #I have added double quotes to show that there are spaces at the beginning and end of the string

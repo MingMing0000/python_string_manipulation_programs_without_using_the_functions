@@ -19,3 +19,6 @@ space_length = string_length - len(input_string)
 
 #add space characters to the end of the string
 output_string = input_string + (' ' * space_length)
+
+#display the justified string
+print(f'Justified text: "{output_string}"') #I have added double quotes to show that there are spaces at the end of the string.

@@ -8,3 +8,13 @@ input_string = input('Enter a text to reverse case: ')
 
 #display the user input
 print('Original text:', input_string)
+
+output_string = ''
+# use ASCII to convert the characters to uppercase or lowercase
+for char in input_string:
+    if 65 <= ord(char) <= 90:
+        output_string += chr(ord(char) + 32)
+    elif 97 <= ord(char) <= 122:
+        output_string += chr(ord(char) - 32)
+    else:
+        output_string += char

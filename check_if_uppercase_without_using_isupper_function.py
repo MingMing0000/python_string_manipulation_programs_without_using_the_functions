@@ -6,7 +6,7 @@
 #print the result
 
 #create a string
-string = "HELLO"
+string = input('Enter a text to check if all characters are in uppercase: ')
 print('word:', string)
 
 #create list of uppercase characters

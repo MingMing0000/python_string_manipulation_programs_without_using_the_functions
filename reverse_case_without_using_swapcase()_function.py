@@ -18,3 +18,6 @@ for char in input_string:
         output_string += chr(ord(char) - 32)
     else:
         output_string += char
+
+#display the converted string
+print('Reversed case text:', output_string)

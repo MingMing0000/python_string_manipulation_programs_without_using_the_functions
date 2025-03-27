@@ -20,3 +20,6 @@ space_length = string_length - len(input_string)
 
 #divide the space length by 2
 space_length = space_length // 2
+
+#add space characters to the beginning and end of the string
+output_string = (' ' * space_length) + input_string + (' ' * space_length)

@@ -8,4 +8,8 @@
 input_string = input('Enter a text: ')
 
 #get length of string user wants
-string_length = int(input('how many characters do you want the text to be: '))
+string_length = int(input('How many characters do you want the text to be: '))
+
+#display the user input
+print(f'Original text:"{input_string}"')
+print(f'Length of text to be outputted: {string_length}')

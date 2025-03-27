@@ -10,3 +10,6 @@ input_string = input('Enter a text to convert to title case: ')
 
 #display the user input
 print('Original text:', input_string)
+
+#split the string into words
+words = input_string.split()

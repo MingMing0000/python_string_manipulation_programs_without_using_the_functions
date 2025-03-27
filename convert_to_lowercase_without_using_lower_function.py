@@ -5,8 +5,8 @@
 #Print the string
 
 #have a string in upper case
-string = "HELLO WORLD"
-print("Original string:", string)
+string = input('Enter a text to convert to lower case: ')
+print("Original text:", string)
 
 #create a dictionary with key as upper case and value as lower case
 upper_to_lower = {'A':'a','B':'b','C':'c','D':'d','E':'e','F':'f','G':'g','H':'h','I':'i','J':'j','K':'k','L':'l','M':'m','N':'n','O':'o','P':'p','Q':'q','R':'r','S':'s','T':'t','U':'u','V':'v','W':'w','X':'x','Y':'y','Z':'z'}
@@ -20,4 +20,4 @@ for char in string:
         lower_string += upper_to_lower[char]
 
 #Print the string
-print('Converted string:', lower_string)
+print('Converted text:', lower_string)

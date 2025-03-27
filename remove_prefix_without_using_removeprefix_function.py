@@ -5,14 +5,18 @@
 #display the result
 
 #sample string
-string = "Hello"
+string = input('Enter some text: ')
 #sample prefix
-prefix = "Hell"
+prefix = input('Enter the prefix you want to remove: ')
+
+#display the user's input
+print("Original text:", string)
+print("Prefix to remove:", prefix)
 
 #test if prefix is in the string
 if string[:len(prefix)] == prefix:
     #remove the prefix then print
-    print(string[len(prefix):]) #output: o
+    print(f'output: {string[len(prefix):]}') #output: o
 else:
     #print the string
-    print(string)
+    print(f'output: {string}')

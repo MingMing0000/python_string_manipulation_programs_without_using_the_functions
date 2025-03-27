@@ -13,3 +13,9 @@ string_length = int(input('How many characters do you want the text to be: '))
 #display the user input
 print(f'Original text:"{input_string}"')
 print(f'Length of text to be outputted: {string_length}')
+
+#subtract the length of string to the length of the string that will be justified
+space_length = string_length - len(input_string)
+
+#add space characters to the end of the string
+output_string = input_string + (' ' * space_length)

@@ -18,3 +18,6 @@ output_string = ''
 #use upper() and lower() to convert the first letter of each word to uppercase and the rest to lowercase
 for word in words:
    output_string += word[0].upper() + word[1:].lower() + ' '
+
+#display the converted string
+print('Title case text:', output_string)

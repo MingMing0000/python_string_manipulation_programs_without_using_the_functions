@@ -8,3 +8,6 @@ input_string = input('Enter a text to convert to capitalize: ')
 
 #display the user input
 print('Original text:', input_string)
+
+#use upper() and lower() to convert the first letter of the string to uppercase and the rest to lowercase
+output_string = input_string[0].upper() + input_string[1:].lower()

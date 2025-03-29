@@ -16,7 +16,7 @@ print("Prefix to remove:", prefix)
 #test if prefix is in the string
 if string[:len(prefix)] == prefix:
     #remove the prefix then print
-    print(f'output: {string[len(prefix):]}') #output: o
+    print(f'output: {string[len(prefix):]}')
 else:
     #print the string
     print(f'output: {string}')

@@ -17,3 +17,6 @@ occurence_counter = 0
 for i in range(0, len(input_string) - len(what_to_count) + 1):
     if input_string[i:i+len(what_to_count)] == what_to_count:
         occurence_counter += 1
+
+#display the result
+print(f'"{what_to_count}" appeared {occurence_counter} times in the text "{input_string}"')

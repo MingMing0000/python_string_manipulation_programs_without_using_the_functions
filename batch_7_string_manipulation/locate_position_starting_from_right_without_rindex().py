@@ -3,3 +3,7 @@
 #loop through the string
 #locate the position from right
 #print the result
+
+#get string from user
+input_string = input("Enter a text:")
+index_parameter = input("Enter the text you want to find and locate in the text:")

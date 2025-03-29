@@ -3,3 +3,7 @@
 #loop through the string and add 1 each iteration to act as locator
 #return the number count
 #display the result
+
+#get string from user
+input_string = input('Enter a text:')
+index_parameter = input("Enter the text you want to find and locate in the text:")

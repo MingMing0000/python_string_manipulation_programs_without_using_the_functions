@@ -12,3 +12,9 @@ for char in input_string:
     if not (ord('a') <= ord(char) <= ord('z')):
         all_lowercase = False
         break
+
+#display the result
+if all_lowercase == True:
+    print("ALL letters in the text are in lowercase.")
+else:
+    print("NOT all letters in the text are in lowercase.")

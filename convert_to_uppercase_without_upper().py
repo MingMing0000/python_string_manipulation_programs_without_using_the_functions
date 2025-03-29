@@ -19,3 +19,6 @@ for char in input_string:
     else:
         # keep the character if it's not lowercase
         output_string += char
+
+#display the result
+print("Text converted to uppercase:", output_string)

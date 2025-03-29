@@ -5,3 +5,10 @@
 
 #get input from user
 input_string = input("Enter a text to check if all letters are in lowercase: ")
+
+#check if all characters are lower case using ASCII values
+all_lowercase = True
+for char in input_string:
+    if not (ord('a') <= ord(char) <= ord('z')):
+        all_lowercase = False
+        break

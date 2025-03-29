@@ -15,5 +15,5 @@ for i in range(len(input_string) - len(index_parameter) + 1):
     if input_string[i:i+len(index_parameter)] == index_parameter:
         print(f'The first appearance of "{index_parameter}" is at position {i}')
         break
-else:
-    print(f'"{index_parameter}" was not found in the text.')
+    else:
+        print(f'"{index_parameter}" was not found in the text.')

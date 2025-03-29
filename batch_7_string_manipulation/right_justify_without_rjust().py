@@ -8,8 +8,14 @@
 #get the string from user
 input_string = input("Enter a text to justify:")
 
-# get the number of characters from user
+#get the number of characters from user
 input_length = int(input("How many characters long you want the text to be?: "))
 
 #display original text
 print(f"Original text: '{input_string}'")
+
+#subtract the length of string to character length input
+space_length = input_length - len(input_string)
+
+#display the output text
+print(f"justified text:'{space_length * ' '}{input_string}'") #used quotes to show that there are spaces

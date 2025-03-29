@@ -4,3 +4,12 @@
 #subtract the length of the string from the number of characters
 #add space characters at the beginning times the result of the subtraction
 #display the result
+
+#get the string from user
+input_string = input("Enter a text to justify:")
+
+# get the number of characters from user
+input_length = int(input("How many characters long you want the text to be?: "))
+
+#display original text
+print(f"Original text: '{input_string}'")

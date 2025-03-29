@@ -2,3 +2,13 @@
 #get the string from user 
 #remove the suffix by using for loop and len() then compare the string with the suffix
 #display the result
+
+#get the string from user
+input_string = input('Enter some text: ')
+
+#get the suffix from user
+suffix = input('Enter the suffix you want to remove: ')
+
+#display the user's input
+print("Original text:", input_string)
+print("Suffix to remove:", suffix)

@@ -2,3 +2,10 @@
 #get the string from user
 #remove the spaces by splitting the string and joining it again
 #display the result
+
+print("This program removes the spaces at the end of the text")
+#get the string from user
+input_string = input("Enter a text(put as many spaces as you like after the text):")
+
+#display the original string
+print(f"Original text:{input_string}")

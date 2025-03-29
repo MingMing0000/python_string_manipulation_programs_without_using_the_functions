@@ -9,3 +9,7 @@ input_string = input("Enter a text(put as many spaces as you like after the text
 
 #display the original string
 print(f"Original text:{input_string}")
+
+#remove the spaces by splitting the string and joining it again
+words = input_string.split()
+output_string = " ".join(words)

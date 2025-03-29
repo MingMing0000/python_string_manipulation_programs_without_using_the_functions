@@ -8,8 +8,11 @@ print("This program removes the spaces at the end of the text")
 input_string = input("Enter a text(put as many spaces as you like after the text):")
 
 #display the original string
-print(f"Original text:{input_string}")
+print(f"Original text:\"{input_string}\"") #used quotes to show the spaces
 
 #remove the spaces by splitting the string and joining it again
 words = input_string.split()
 output_string = " ".join(words)
+
+#display the result
+print(f"Text without spaces at the end:\"{output_string}\"")  #used quotes to show the spaces got removed
